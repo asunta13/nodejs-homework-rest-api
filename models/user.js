@@ -18,6 +18,10 @@ const userSchema = new Schema({
 		enum: subscriptionList,
 		default: "starter",
 	},
+	avatarURL: {
+		type: String,
+		required: true,
+	},
 	token: String,
 });
 
